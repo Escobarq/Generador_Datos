@@ -1,0 +1,185 @@
+
+/* Primary Container*/
+.main-container {
+    -fx-background-color: linear-gradient(from 0% 0% to 0% 100%, #062E65, #016334);
+    -fx-alignment: center;
+}
+/* Secondary Container*/
+.inner-container {
+    -fx-background-color: white;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.28), 10, 0, 0, 2);
+    -fx-alignment: center;
+    -fx-vgrow: always;
+}
+/* Style text */
+.h1 {
+    -fx-font-family: "SansSerif";
+    -fx-font-weight: bold;
+    -fx-font-size: 32px;
+}
+
+.h2 {
+    -fx-font-family: "SansSerif";
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+}
+
+.h3 {
+    -fx-font-family: "SansSerif";
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+}
+
+.h4 {
+    -fx-font-family: "SansSerif";
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.h5 {
+    -fx-font-family: "SansSerif";
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+/* Container Button*/
+.button-container {
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+/* Button Style viewTwo */
+.poppins-button {
+    -fx-font-family: "SansSerif";
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-pref-width: 180px;
+    -fx-pref-height: 50;
+    -fx-background-radius: 30px;
+    -fx-background-color: #F2F3FA;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.55), 5, 0, 0, 1);
+    -fx-cursor: hand;
+
+}
+.poppins-button:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-background-color: #0c1f79;
+    -fx-text-fill: #fff;
+}
+/* Estilo para los ComboBox */
+.combo-box {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 3px 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 0, 1);
+    -fx-pref-height: 40px;
+    -fx-pref-width: 250px;
+}
+
+/* Button Style generateDataFaker */
+.generate {
+    -fx-font-family: "SansSerif";
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-pref-width: 180px;
+    -fx-pref-height: 55;
+    -fx-background-radius: 30px;
+    -fx-background-color: #06D774;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.55), 5, 0, 0, 1);
+    -fx-cursor: hand;
+}
+.generate:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-background-color: #06D774;
+    -fx-text-fill: #fff;
+}
+/*Button Guardar*/
+.poppins-button-guardar {
+    -fx-font-family: "SansSerif";
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-pref-width: 130px;
+    -fx-pref-height: 20;
+    -fx-background-radius: 30px;
+    -fx-background-color: #999BBD;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.55), 5, 0, 0, 1);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.poppins-button-guardar:hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-background-color: #0c1f79;
+    -fx-text-fill: #fff;
+}
+
+/*TextField Ruta*/
+.text-field-ruta{
+    -fx-background-color: #D9D9D9; -fx-border-color: #000; -fx-border-radius: 12px;
+}
+
+/*Checkbox*/
+.checkbox {
+    -fx-font-family: "SansSerif";
+    -fx-padding: 2px;
+    -fx-font-weight: bold;
+}
+.checkbox .box {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+
+.checkbox:selected .box {
+    -fx-background-color: #5470FF;
+    -fx-border-color: #5470FF;
+}
+
+.check-box:selected > .box > .mark {
+    -fx-background-color: white;
+}
+
+/*Button-Generar*/
+.button-generar {
+    -fx-font-family: "SansSerif";
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-pref-width: 130px;
+    -fx-pref-height: 30;
+    -fx-background-radius: 30px;
+    -fx-background-color: #06D774;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.55), 5, 0, 0, 1);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.button-generar :hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-background-color: #06D774;
+    -fx-text-fill: #fff;
+}
+/*Button-Confirmar*/
+.button-confirmar {
+    -fx-font-family: "SansSerif";
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-pref-width: 130px;
+    -fx-pref-height: 20;
+    -fx-background-radius: 30px;
+    -fx-background-color: #06D774;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.55), 5, 0, 0, 1);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.button-confirmar :hover {
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+    -fx-background-color: #06D774;
+    -fx-text-fill: #fff;
+}

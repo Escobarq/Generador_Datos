@@ -1,0 +1,5 @@
+<component name="PropertiesComponent">
+    <property name="ide.basewindow.group" value="true"/>
+    <property name="ide.basewindow.group.name" value="My Group"/>
+<!--    <property name="ide.basewindow.group.icon" value="file://path/to/your/icon.png"/>-->
+</component>

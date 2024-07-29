@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;
+           -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 20, 0, 0, 0);
+           -fx-background-radius: 10;"
+            stylesheets="@../style/style.css"
+            xmlns="http://javafx.com/javafx/11.0.14-internal"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.datasintetica.datasintec.controllers.ModalView">
+
+    <VBox layoutX="20" layoutY="20" spacing="10" style="-fx-background-radius: 10;">
+        <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+        </padding>
+        <!--Primera Seccion -->
+        <Label styleClass="h1" text="Los datos se han generado correctamente" />
+        <Separator prefHeight="20.0" visible="false" />
+        <!--Segunda Seccion -->
+        <HBox spacing="10">
+            <Label styleClass="h4" text="Tipo de extensión:" />
+            <HBox HBox.hgrow="ALWAYS" />
+            <CheckBox fx:id="exportTxt" styleClass="checkbox" text="CSV" />
+            <CheckBox fx:id="exportCsv" styleClass="checkbox" text="TXT" />
+            <CheckBox fx:id="exportXlsx" styleClass="checkbox" text="XLSX" />
+        </HBox>
+        <Separator prefHeight="20.0" visible="false" />
+        <!--Tercera Seccion -->
+        <HBox spacing="10">
+            <Label styleClass="h4" text="Delimitador:" />
+            <HBox HBox.hgrow="ALWAYS" />
+            <CheckBox fx:id="demilitadorComa" styleClass="checkbox" text="," />
+            <CheckBox fx:id="demilitadorPuntoComa" styleClass="checkbox" text=";" />
+            <CheckBox fx:id="demilitadorPipe" styleClass="checkbox" text="|" />
+            <CheckBox fx:id="demilitadorDoublePipe" styleClass="checkbox" text="¦" />
+        </HBox>
+        <Separator prefHeight="20.0" visible="false" />
+        <!--Cuarta Seccion -->
+        <HBox spacing="10">
+            <Label styleClass="h4" text="Guardar en:" />
+            <HBox HBox.hgrow="ALWAYS" />
+            <Button  fx:id="showFile" prefHeight="162.0" prefWidth="172.0" styleClass="poppins-button-guardar" text="Guardar" />
+        </HBox>
+        <TextField fx:id="rutaArchivo" disable="true" editable="false" prefWidth="400" styleClass="text-field-ruta" text="ruta/a/guardar/el/archivo" />
+        <Separator prefHeight="20.0" visible="false" />
+        <HBox alignment="TOP_RIGHT" prefHeight="30.0">
+            <Button fx:id="quitModal" prefHeight="162.0" prefWidth="172.0" styleClass="button-confirmar" text="Confirmar" />
+        </HBox>
+    </VBox>
+</AnchorPane>
