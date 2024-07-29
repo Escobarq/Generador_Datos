@@ -19,7 +19,7 @@ Generador de Datos Sintéticos para pruebas de carga Del portal silin, entidad e
 Clona este repositorio en tu máquina local usando:
 
 ```bash
-git clone {url}
+git clone https://github.com/Escobarq/Generador_Datos.git
 ```
 
 Después haberse dirigido al proyecto mediante terminal o con su editor de preferencia **recomendamos intellij idea** o VS CODE
