@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="data-sintec2">
+    <output-path>$PROJECT_DIR$/out/artifacts/data_sintec2</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="org.datasintetica.datasintec.Main" />
+        <option name="description" value="Generador de Datos Falsos" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Data Sintect" />
+        <option name="vendor" value="Escobarq" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="data_sintec.jar">
+        <element id="module-output" name="data-sintec" />
+      </element>
+    </root>
+  </artifact>
+</component>

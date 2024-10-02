@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jpackage" build-on-make="true" name="data-sintec">
+    <output-path>$PROJECT_DIR$/out/artifacts/data_sintec</output-path>
+    <root id="root">
+      <element id="archive" name="data_sintec.jar">
+        <element id="module-output" name="data-sintec" />
+      </element>
+    </root>
+  </artifact>
+</component>
