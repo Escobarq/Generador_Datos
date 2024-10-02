@@ -1,6 +1,6 @@
 # Generator Data Sintetica
 
-Generador de Datos Sintéticos para pruebas de carga Del portal silin, entidad etc..
+Generador de Datos Sintéticos para pruebas
 
 ## Requisitos
 - Java JDK 17 
@@ -25,16 +25,16 @@ git clone https://github.com/Escobarq/Generador_Datos.git
 Después haberse dirigido al proyecto mediante terminal o con su editor de preferencia **recomendamos intellij idea** o VS CODE
 y correr el proyecto para ver la siguiente pantalla principal.
 
-![Generador Data Sintect](/images/generador.png "Generador Data Faker")
+![Generador Datos FAlsos ](/images/generador.png "Generador Data Fake")
 
 ## Flujo de Control del aplicacion
 
 ```mermaid
 graph TD;
-    A[Inicio] -->|Elegir tipo de datos| B(Tipo de FT: 1, 6, 11, 12);
+    A[Inicio] -->|Elegir tipo de datos| B(Tipo de DATA: 1, 6, 11, 12);
     B -->|Indicar cantidad de registros| C(Cantidad de registros);
-    C -->|Seleccionar tipo de cliente| D(Tipo de Cliente: Antioquia, Palmira, GVC, Tuluá);
-    D -->|Seleccionar tipo de archivo| E(Tipo de Archivo: Retroactivo, Ordinario);
+    C -->|Seleccionar tipo de cliente| D(Tipo de Cliente: JUAN, ESTEBAN, ALVAREZ, ALEX);
+    D -->|Seleccionar tipo de archivo| E(Tipo de Archivo: LL, OO);
     E --> F{Sale todo bien?};
     F -->|Sí| G(Muestra el Modal);
     G -->|Seleccionar delimitador| H(Seleccionar coma, punto y coma, onepipe, barra vertical partida);
